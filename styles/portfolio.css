@@ -10,7 +10,8 @@
     --heading-font-family: 'Josefin Sans', sans-serif;
     --secondary-font-family: 'Playfair Display', serif;
     --default-font-family: "Source Sans 3", sans-serif;
-    --logo-font-family: "Pinyon Script", cursive;
+    --logo-font-family: "Pinyon Script";
+    /* --page-font-family: "Playfair Display"; */
     /* --background-color: #e7717D; */
 }
 
@@ -27,8 +28,8 @@ h1 {
     font-size: 125px;
     font-family: var(--logo-font-family);
     color: var(--primary-color);
-
 }
+
 
 h2 {
     font-size: 64px;
@@ -58,11 +59,14 @@ p {
 }
 
 .logo {
-    font-family: var(--logo-font-family);
-    font-size: 30px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 35px;
     /* font-weight: 600; */
     color: var(--primary-color);
+    margin-top: 1px;
     text-decoration: none;
+   
+    
 }
 
 .logo:hover {
@@ -225,11 +229,13 @@ a:hover {
     color: var(--secondary-color);
 }
 
+
 .hero .eden-book-pic {
     border: 1px solid #958b7f;
     box-shadow: 8px 8px 5px #494238;
     border-radius: 1px; 
     margin-top: 0;
+    
 }
 
 /* .hero h2 {
@@ -239,6 +245,7 @@ a:hover {
     line-height: 2;
     color: var(--secondary-color);
 } */
+
 
 .hero p {
     font-size: 18px;
@@ -253,18 +260,65 @@ a:hover {
         margin-top: 0;
 }
 
-.hero .eden-book-title p {
+.hero .eden-book-title h1 {
     font-size: 75px;
+    font-weight: bold;
     font-family: var(--heading-font-family);
     color: var(--secondary-color);
 }
 
-.hero .eden-story-blurb p {
-    font-size: 20px;
+.hero .eden-book-title h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
     font-family: var(--heading-font-family);
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    margin-top: 20px;
 }
 
+.hero .eden-book-title h3 {
+    font-size: 25px;
+    /* font-weight: bold; */
+    font-style: italic;
+    font-family: var(--heading-font-family);
+    color: var(--secondary-color);
+    margin-top: 5px;
+}
+
+.hero .eden-book-title h4 {
+    font-size: 30px;
+    font-weight: 1000;
+    
+    font-family: var(--default-font-family);
+    color: var(--branding-color);
+    margin-top: 20px;
+    /* text-align: left */
+}
+
+.hero .reviews p {
+    font-size: 20px;
+    font-weight: 400;
+    
+    font-family: var(--heading-font-family);
+    color: var(--secondary-color);
+    padding-left: 12px;
+}
+
+.hero .eden-story-blurb p {
+    font-size: 20px;
+    font-family: var(--default-font-family);
+    color: rgb(22, 17, 21);
+
+    /* color: var(--secondary-color); */
+}
+
+.transparent-field {
+    background: rgba(149, 139, 127, 0.3);
+    margin-top: 0px;
+    padding: 10px;
+    
+    
+}
 
 .btn-branding {
     background-color: var(--branding-color);
