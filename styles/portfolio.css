@@ -595,8 +595,8 @@ footer .photo-credit {
     .hero .hero-image {
         background-image: url("/images/Eden-picture-landscape-1920x1080.png");
         /* height: 50vh; */
-        /* max-height: 100%;
-    max-width: 100%; */
+        /* max-height: 100%; */
+    /* max-width: 100%; */
     width: 100vw;
         /* background-position: center center; 
         background-repeat: no-repeat;
