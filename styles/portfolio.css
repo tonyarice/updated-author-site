@@ -21,6 +21,10 @@ body {
     font-family: 'Pinyon Script', cursive;
     font-family: 'Playfair Display', serif;
     font-family: 'Source Sans 3', sans-serif;
+    /* font-family: 'Elsie', serif;
+font-family: 'Elsie Swash Caps', serif;
+font-family: 'Viaoda Libre', serif; */
+    
 }
 
 
@@ -59,9 +63,10 @@ p {
 }
 
 .logo {
-    font-family: 'Pinyon Script', cursive;
-    font-size: 35px;
-    /* font-weight: 600; */
+    font-family: 'Viaoda Libre', serif;
+    font-size: 25px;
+    /* font-stretch: condensed; */
+    font-weight: 500;
     color: var(--primary-color);
     margin-top: 1px;
     text-decoration: none;
